@@ -1,0 +1,34 @@
+# Maven build output
+target/
+
+# IntelliJ IDEA project metadata
+.idea/
+*.iml
+*.iws
+
+# Eclipse project metadata
+.classpath
+.project
+.settings/
+
+# VS Code local workspace files
+.vscode/
+
+# Java and application logs
+*.class
+*.log
+hs_err_pid*
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
